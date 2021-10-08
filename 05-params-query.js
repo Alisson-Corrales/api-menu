@@ -48,7 +48,7 @@ app
       return res.status(404).json({
         results: [],
         success: false,
-        message: "Don't be a cheapstake man",
+        message: "Don't be a cheapstake man, nothing's that cheap",
       });
     }
     res.json({ results: productPrice, success: true });
